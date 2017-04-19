@@ -1,0 +1,18 @@
+﻿Bjarne Stroustrup ~ Clean code does one thing well.
+Grady Booch ~ Clean code is simple and direct. Clean code reads like well-written prose
+Ron Jeffries ~  Simple code: • Runs all the tests; • Contains no duplication; • Expresses design ideas in the system; • Minimizes classes, methods, functions, and the like. 
+Meaningful Names ~ Class names are nouns. Method names are verbs. Use Solution Domain and Problem Domain Names.
+Functions ~ Functions are small, they do one thing and one thing well. 
+Functions ~ One level of abstraction per function
+Function Arguments ~ Zero - Ideal; One and Two - Okay; Three - should be avoided. Four and more - should be justified.
+Functions ~ Should have no side effects
+Functions ~ Separate Commands and Queries
+Functions ~ Prefer exceptions over error codes
+Functions ~ Extract Try/Catch Blocks
+Edsger Dijkstra ~ Every function must have one entry and one exit.
+Comments ~ Comments about "Why" code exists are better than comments for "What" code does.
+Comments ~ Don't use a comment when yo ucan use a function or a variable
+Variable Declarations ~ Method variables as close to their usage as possible. Instance Variables at the top of the class. 
+Dependent Functions ~ If one function calls another, they should be vertically close; with caller above callee; if possible.
+Functions ~ Functions doing similar things should be placed together.
+Horizontal Formatting ~ Lines should be 80-120 characters long.
